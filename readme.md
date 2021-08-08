@@ -1,6 +1,9 @@
 ## Mobious
 ### Watch Trader Web Tools
 ---
-Just uploading the `prework` folder for now. Made for fun. Includes some very basic basic template and CSS-in-JS objects to inline styles parser. Shaking the rust off.
+Super basic version of this to remove professional dealer and non-US listings from Chrono24.com. There is a button fixed to the top left of your browser when on any chrono24.com page that you can click to move everything.
 
-If you're a fellow trader, see L#83-84 for the jQuery to remove professional dealers and non-US listings on Chrono24. Chrome extension in progress.
+Suggestions/Tips:
+- Login to your account
+- Set your results per page to 120
+- If you see no listings, it means its all dealers and non-US. Go to the next page and try again.

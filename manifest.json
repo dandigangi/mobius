@@ -1,0 +1,32 @@
+{
+    "version": "1.0",
+    "manifest_version": 3,
+    "name": "Mobius - Watch Trader Tools",
+    "description": "Collection of web tools that allow you to improve how you use watch trading platforms.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "css": ["controls.css"],
+            "js": ["jquery-3.6.0.min.js", "page.js"],
+            "matches": ["http://*/*", "https://*/*"]
+        }
+    ],
+    "action": {
+        "default_popup": "popout.html",
+        "default_icon": {
+            "16": "/images/mobius-icon-16x16.png",
+            "32": "/images/mobius-icon-32x32.png",
+            "48": "/images/mobius-icon-48x48.png",
+            "128": "/images/mobius-icon-128x128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/mobius-icon-16x16.png",
+        "32": "/images/mobius-icon-32x32.png",
+        "48": "/images/mobius-icon-48x48.png",
+        "128": "/images/mobius-icon-128x128.png"
+    }
+}
